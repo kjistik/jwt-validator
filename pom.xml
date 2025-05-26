@@ -6,7 +6,7 @@
 
     <groupId>io.github.kjistik</groupId>
     <artifactId>jwt-validator</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <name>JWT Validator Library</name>
     <description>Reusable JWT validation library for Java applications</description>
     <url>https://github.com/kjistik/jwt-validator</url>
@@ -22,7 +22,7 @@
     <developers>
         <developer>
             <name>Martín Coronel</name>
-            <email>coonelmartinernesto@gmail.com</email>
+            <email>coronelmartinernesto@gmail.com</email>
             <organization>Kjistik</organization>
             <organizationUrl>https://github.com/kjistik</organizationUrl>
         </developer>
@@ -46,6 +46,13 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk18on</artifactId>
+            <version>1.77</version>
+        </dependency>
+
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
